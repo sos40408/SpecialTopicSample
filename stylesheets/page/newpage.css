@@ -1,0 +1,26 @@
+/* line 1, ../../sass/page/newpage.scss */
+.newheader {
+  font-size: 28px;
+  font-family: arial;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* line 7, ../../sass/page/newpage.scss */
+.new-phtot {
+  text-align: center;
+}
+
+/* line 10, ../../sass/page/newpage.scss */
+.postdate {
+  padding-left: 890px;
+  margin: 16px 0;
+  border-top-style: none;
+  border-bottom-style: double;
+}
+
+/* line 17, ../../sass/page/newpage.scss */
+.new-content {
+  padding: 60px 150px;
+  font-size: 20px;
+}

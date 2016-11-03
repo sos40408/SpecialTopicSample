@@ -1,0 +1,149 @@
+/* line 2, ../../sass/partial/header.scss */
+.header-row-pc {
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 2;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 13, ../../sass/partial/header.scss */
+.header-col-pc {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* line 17, ../../sass/partial/header.scss */
+.header-logo-pc {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 0;
+}
+
+/* line 23, ../../sass/partial/header.scss */
+.header-box-left {
+  float: left;
+}
+
+/* line 26, ../../sass/partial/header.scss */
+.header-box-right {
+  float: right;
+  padding: 0;
+}
+
+/* line 30, ../../sass/partial/header.scss */
+.nav {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+/* line 39, ../../sass/partial/header.scss */
+.header-row {
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 2;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* line 49, ../../sass/partial/header.scss */
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+/* line 54, ../../sass/partial/header.scss */
+a, ul, ol, tr {
+  font-family: "futura-PT",sans-serif;
+  color: #2d2d2d;
+  letter-spacing: 0.03em;
+  font-size: 20px;
+}
+
+/* line 60, ../../sass/partial/header.scss */
+.header-col {
+  text-align: center;
+}
+
+/* line 63, ../../sass/partial/header.scss */
+.header-logo {
+  display: inline-block;
+  padding: 0 12px;
+  margin: 0;
+}
+
+/* line 69, ../../sass/partial/header.scss */
+.btn {
+  width: 100%;
+  border: none;
+  font-size: 24px;
+}
+
+/* line 75, ../../sass/partial/header.scss */
+.dropdown-menu {
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* line 80, ../../sass/partial/header.scss */
+.dropdown-menu > li > a {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  /* line 86, ../../sass/partial/header.scss */
+  .header-row {
+    display: none;
+    height: 60px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 2;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  /* line 97, ../../sass/partial/header.scss */
+  .header-col {
+    display: none;
+    text-align: center;
+  }
+
+  /* line 101, ../../sass/partial/header.scss */
+  .header-logo {
+    display: none;
+    padding: 0 12px;
+    margin: 0;
+  }
+
+  /* line 107, ../../sass/partial/header.scss */
+  .btn {
+    display: none;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+  }
+
+  /* line 114, ../../sass/partial/header.scss */
+  .dropdown-menu {
+    display: none;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  /* line 126, ../../sass/partial/header.scss */
+  .header-logo-pc {
+    display: none;
+  }
+}

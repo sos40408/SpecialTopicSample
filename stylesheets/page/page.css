@@ -1,0 +1,42 @@
+/* line 1, ../../sass/page/page.scss */
+.pagetitle {
+  font-family: arial;
+  text-align: center;
+  padding: 38.76px 15px 0 15px;
+}
+
+/* line 6, ../../sass/page/page.scss */
+.page-photo {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 10, ../../sass/page/page.scss */
+.postdate-box {
+  padding: 0 15px;
+  border-top-style: none;
+  border-bottom-style: double;
+}
+
+/* line 15, ../../sass/page/page.scss */
+.postdate {
+  float: right;
+  margin: 0;
+}
+
+/* line 20, ../../sass/page/page.scss */
+.page-content {
+  padding: 15px;
+}
+
+@media (max-width: 767px) {
+  /* line 25, ../../sass/page/page.scss */
+  .pagetitle {
+    padding: 0 15px;
+  }
+
+  /* line 28, ../../sass/page/page.scss */
+  .btn {
+    padding: 0;
+  }
+}
